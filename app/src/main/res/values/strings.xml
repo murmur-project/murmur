@@ -1,0 +1,256 @@
+<resources>
+
+    <!-- General -->
+    <!-- Application name-->
+    <string name="app_name" translatable="false">Murmur</string>
+
+    <!-- Navigation drawer state for usability assistance-->
+    <string name="open">Navigation Drawer is Open</string>
+    <string name="close">Navigation Drawer is Closed</string>
+
+    <!-- Network error notification and prompts -->
+    <string name="offline_mode_toast">Murmur is running in Offline mode</string>
+    <string name="notification_connection_error_title">Connection Error</string>
+    <string name="notification_connection_error_message">Turn on BT/WiFi or switch to Offline</string>
+    <string name="notification_no_bluetooth_title">Connection Error: Bluetooth is off</string><!-- no longer in use, uses single error for both WIFI and BT-->
+    <string name="notification_no_bluetooth_message">Please turn on Bluetooth or switch to Offline mode</string><!-- no longer in use, uses single error for both WIFI and BT-->
+    <string name="notification_no_wifi_title">Connection Error: WiFi is off</string><!-- no longer in use, uses single error for both WIFI and BT-->
+    <string name="notification_no_wifi_message">Please turn on WiFi or switch to Offline mode</string><!-- no longer in use, uses single error for both WIFI and BT-->
+
+    <string name="error_notification_action_onwifi">Turn on</string>
+    <string name="error_notification_action_turnon_bt">Turn on</string>
+    <string name="error_notification_action_off_service">Switch to Offline</string>
+
+    <!-- New messages notification-->
+    <string name="unread_notification_title">New unread messages</string>
+    <string name="unread_notification_content">New exchanges</string>
+
+    <!-- New messages snackbar -->
+    <string name="new_messages_notification_desc">new messages</string>
+    <string name="new_message_notification_desc">new message</string>
+    <string name="new_messages_notification_btn">View New</string>
+    <string name="exchanges">new exchanges</string>
+    <string name="exchange">new exchange</string>
+
+    <!-- Drawer menu actions (also used as page titles)-->
+    <string name="drawer_menu_feed">Feed</string>
+    <string name="drawer_menu_starred">Starred</string>
+    <string name="drawer_menu_offline_mode">Offline mode</string>
+    <string name="drawer_menu_contact">Contacts</string>
+    <string name="drawer_menu_profile">Profile</string>
+    <string name="drawer_menu_settings">Settings</string>
+    <string name="drawer_menu_help">Help &amp; feedback</string>
+    <string name="drawer_menu_info">About</string>
+    <string name="drawer_menu_reset">Reset app</string>
+    <string name="drawer_menu_export">Export feed</string>
+    <string name="drawer_menu_share_app">Share Murmur</string>
+    <string name="drawer_menu_advanced">Advanced</string>
+
+    <!-- share app picker title-->
+    <string name="share_using">Share using</string>
+
+    <!-- Export -->
+    <string name="export_subdiractory" translatable="false">Murmur exports</string>
+
+    <!-- export process toasts-->
+    <string name="export">Exporting....</string>
+    <string name="export_message">Please wait...</string>
+    <string name="export_successful">Feed exported to your Download folder</string>
+    <string name="export_failed">Oops, feed export failed, please try again</string>
+
+    <!-- Share message (from feed/stared)-->
+    <string name="share_prefix">Sent with Murmur</string>
+
+    <!-- Actionbar/Toolbar-->
+
+    <string name="empty_string"></string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect All</string>
+
+    <!-- actionbar sort options-->
+    <string name="sort_opt_newest">Newest</string>
+    <string name="sort_opt_oldest">Oldest</string>
+    <string name="sort_opt_mostendorsed">Most endorsed</string>
+    <string name="sort_opt_leastendorsed">Least endorsed</string>
+    <string name="sort_opt_mostconnected">Most connected</string>
+    <string name="sort_opt_leastconnected">Least connected</string>
+
+    <!-- menu item titles (not shown but required) -->
+    <string name="send">Send</string>
+    <string name="search_title">Search</string>
+    <string name="retweet">Retweet</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+
+    <!-- menu item titles (shown when in advance delete mode-->
+    <string name="delete_from_sender">Same nickname</string><!--Delete messages with same sender-->
+    <string name="delete_by_connection">Same or lower score</string><!--Delete messages with same or lower connection-->
+    <string name="delete_by_exchange">Same exchange</string><!--Delete messages from same exchange-->
+    <string name="delete_tree">Including replies</string><!--Delete message and replies-->
+
+    <!-- Feed/Starred-->
+
+    <!-- delete dialog conformation-->
+    <string name="delete_dialog_title">Delete items</string>
+    <string name="delete_dialog_message1">Are you sure you wish to delete</string><!-- pre-number-->
+    <string name="delete_dialog_message2">item(s)?</string><!-- post-number-->
+
+    <!-- item time units -->
+    <string name="days_short">d</string>
+    <string name="just_now">last hour</string>
+    <string name="today">today</string>
+    <string name="h_ago">hr ago</string>
+    <string name="d_ago">d ago</string>
+
+    <!-- self destruct pre-text-->
+    <string name="self_destruct_in">self-destructs in</string><!-- time -->
+
+    <!-- reset application dialog -->
+    <string name="reset_dialog_title">Reset application</string>
+    <string name="reset_app_message">Are you sure you wish to reset Murmur?\nAll messages and contacts will be erased</string>
+    <string name="confirm_reset_dialog_title">Confirm reset</string>
+    <string name="confirm_reset_app_message">Click \'yes\' to reset Murmur.</string>
+
+    <!-- Post/Reply post -->
+    <!-- actionbar titles-->
+    <string name="new_post">New post</string>
+    <string name="reply">Reply</string>
+
+    <string name="post_hint">Type your message</string>
+
+    <!-- Self-destruct dialog -->
+    <string name="timebound_dialog_title">Self-destruct</string>
+    <string name="hours_short">hrs</string>
+
+    <!-- Share location error -->
+    <string name="no_gps_error">Could not determine location please activate your GPS</string>
+
+    <!-- Profile -->
+    <string name="pseudonym_title">Nickname</string>
+    <string name="qr_title">QR Code</string>
+
+    <!-- Contacts-->
+
+    <!-- Menu item title (not shown but required) -->
+    <string name="add">Add</string>
+
+    <!-- Add Contact dialog -->
+    <string name="add_friend_dialog_title">Add contact</string>
+    <string name="add_friend_dialog_body">Select method</string>
+    <string name="add_friend_qrcode">QR-code</string>
+    <string name="add_friend_phonebook">Phonebook</string>
+
+    <!-- edit contact dialog -->
+    <string name="conf_friend_dialog_title">Edit contact</string>
+    <string name="conf_friend_dialog_name_title">Nickname</string>
+    <string name="conf_friend_dialog_number_title">Phone</string>
+
+    <!-- Delete contact conformation dialog-->
+    <string name="delete_dialog_friend1">Are you sure you wish to delete</string><!--pre-number-->
+    <string name="delete_dialog_friend2">items</string><!--post-number-->
+
+    <!-- QR code scanner prompt message-->
+    <string name="qr_scanner_message">Scan a Murmur QR code</string>
+    <!-- valid QR code prefix to identify app related QR-->
+    <string name="qr_code_prefix" translatable="false">Murmur:</string>
+
+    <!-- add contact result toasts -->
+    <string name="contact_add_conf">Contact Added</string>
+    <string name="contact_exist">Already in contacts</string>
+    <string name="contact_add_fail">Selected contact doesn\'t have a phone number</string>
+    <string name="qr_badqr_error">Not a Murmur QR code</string>
+
+    <!-- Settings-->
+    <!-- profile preset block-->
+    <string name="select_profile_title">Choose a profile</string>
+    <string name="profile_flexible">More features / less security</string>
+    <string name="profile_strict">More security / less features</string>
+    <string name="profile_custom">Custom</string>
+    <string name="profile_custom_annotation">Recommended only for advanced users</string>
+
+    <!-- anonymity settings block-->
+    <string name="settings_anonymity_title">Anonymity</string>
+
+    <string name="settings_timestamp">Timestamps</string>
+    <string name="settings_location_tagging">Location tagging</string>
+    <string name="settings_pseudonym">Nicknames</string>
+
+    <!-- privacy settings block-->
+    <string name="settings_privacy_title">Privacy</string>
+
+    <string name="settings_trust">Connection scores</string>
+    <string name="settings_self_dest">Self-destruct duration</string>
+    <string name="settings_self_dest_annotation">Default self-destruct message duration in hours</string>
+    <string name="settings_restricted">Restricted messages (contacts)</string>
+    <string name="settings_restricted_annotation">Minimum shared contacts to send message</string>
+
+    <!-- feed related settings block-->
+    <string name="settings_feed_title">Feed</string>
+
+    <string name="settings_autodelete">Auto-delete messages</string>
+    <string name="settings_autodelete_trust_annotation">With a connection score less than</string><!-- describe meaning of changing connection score threshold-->
+    <string name="settings_autodelete_age_annotation">Older than (in days)</string><!-- describe meaning of changing age threshold-->
+
+    <!-- contact related settings block-->
+    <string name="settings_contacts_title">Contacts</string>
+
+    <string name="settings_add_via_phonebook">Add contacts via phonebook</string>
+    <string name="settings_add_via_qr">Add contacts via QR code</string>
+
+    <!-- exchange related settings block-->
+    <string name="settings_exchange_title">Exchanges</string>
+
+    <string name="settings_max_messages_p_exchange">Maximum messages per exchange</string>
+    <string name="settings_timeout_p_exchange">Timeout between exchanges</string>
+
+    <!-- network related settings block (not currently in use)-->
+    <string name="settings_network_title">Network</string>
+
+    <string name="settings_mac_title">Bluetooth Address</string>
+
+    <string name="settings_bt_device_settings">Go to Status Screen</string>
+
+    <!-- About -->
+
+    <string name="aboutTitle">About Murmur</string>
+    <string name="aboutBody">Murmur is a free, open-source, anonymous messaging app that does not require an Internet connection. Messages are not sent in real-time like with other messaging apps that rely on the Internet and have a central server, but instead spread directly from one device to another (forming a peer-to-peer network) without user intervention using Bluetooth and WiFi Direct. The more devices the faster the message spreads! If no device is around, the message is queued in the feed to be sent later. You control your anonymity and decide what information to share about yourself. Lastly, Connection Scores help you filter spam messages and Restricted Messages limit your audience to your friends.</string>
+
+    <!-- Share app-->
+    <!-- notification attached to the url message -->
+    <string name="share_app_promo1">Check out Murmur! On Google Play</string>
+    <string name="apk_googleplay_url" translatable="false">http://bit.ly/1OYgBNT</string>
+    <string name="share_app_promo2">or if you don\'t have access here</string>
+    <string name="apk_url" translatable="false">http://bit.ly/1P2TZcN</string>
+
+    <!-- On-boarding -->
+    <string name="skip_welcome">NEXT</string>
+    <string name="skip_welcome2">SAVE</string>
+
+    <string name="onboarding1_title">Communicate freely</string>
+    <string name="onboarding1_message">Messages are broadcast between devices over Bluetooth &amp; WiFi. The more devices, the faster the messages moves! If no device is around, the message is queued to be sent later</string>
+
+    <string name="onboarding2_title">Control your anonymity</string>
+    <string name="onboarding2_message">Choose security settings to determine your level of anonymity. The more settings you enable, the more information you share about yourself</string>
+
+    <string name="onboarding3_title">Maintain your privacy</string>
+    <string name="onboarding3_message">Filter spam using Connection Scores and limit your audience with Restricted Messages</string>
+
+    <string name="onboarding4_title">Just one more thing</string>
+    <string name="onboarding4_message"><![CDATA[Please turn on Bluetooth, go to your Status screen, and copy & paste your Bluetooth address below:]]></string>
+    <string name="onboarding4_message_small_why">Why are we asking for this?</string>
+    <string name="onboarding4_message_small">Murmur uses Bluetooth to communicate. Unfortunately Android 6.x applications cannot get automatic access to your Bluetooth address, so we need your help. Don\'t worry - you will only have to enter this once. If you made a mistake entering the address you can correct it later on in Settings</string>
+    <string name="onboarding4_message_error">Invalid Bluetooth address</string>
+
+    <!--Replies feed-->
+    <string name="comments">Replies</string>
+
+    <!-- Help & Feedback-->
+    <!-- feedback-->
+    <string name="send_feedback">Send feedback</string>
+    <string name="feedback_email" translatable="false">murmur_support@casific.com</string>
+    <string name="feedback_title" translatable="false">Murmur feedback</string>
+    <string name="feedback_intro" >Dear Murmur support representative, </string>
+
+    <string name="more_help"><u>More >></u></string>
+
+</resources>
